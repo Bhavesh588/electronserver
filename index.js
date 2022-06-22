@@ -1,7 +1,7 @@
 const express = require("express");
 const cors = require("cors");
 const bodyParser = require("body-parser");
-const path = require("path");
+// const path = require("path");
 
 const { sequelize, User, Posts } = require("./models");
 const app = express();
